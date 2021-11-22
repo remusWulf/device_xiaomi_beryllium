@@ -9,6 +9,8 @@ $(call inherit-product, device/xiaomi/beryllium/device.mk)
 # Inherit some common p404 stuff.
 $(call inherit-product, vendor/404/configs/common.mk)
 
+TARGET_BOOT_ANIMATION_RES := 1080
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := p404_beryllium
 PRODUCT_DEVICE := beryllium
